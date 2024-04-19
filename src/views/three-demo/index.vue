@@ -1,7 +1,10 @@
 <template>
   <div>demo</div>
 </template>
-<script lang="ts" setup>
+<script setup>
+import { init, animate } from './index'
+init();
+// animate();
 </script>
 <style>
 </style>

@@ -13,7 +13,12 @@ const routes = [
   {
     path: '/three-demo',
     component: () => import('../views/three-demo/index.vue'),
-    name: 'Home'
+    name: 'ThreeDemo'
+  },
+  {
+    path: '/three',
+    component: () => import('../views/three/index.vue'),
+    name: 'Three'
   },
 ]
 

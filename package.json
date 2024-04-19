@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gdtc/element-plus-c": "2.2.28-1",
     "sass": "^1.69.7",
     "three": "^0.160.0",
     "vue": "^3.3.11",
