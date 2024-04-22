@@ -1,0 +1,9 @@
+version: '1'
+
+services:
+  my-vue-app-prod:
+    image: registry.cn-hangzhou.aliyuncs.com/xfchenju/my-vue-app:prod
+    container_name: my-vue-app-prod
+    ports:
+      - '8888:80'
+    restart: always
